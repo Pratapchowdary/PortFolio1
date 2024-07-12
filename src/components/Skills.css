@@ -1,0 +1,49 @@
+.third {
+  margin: 20px;
+}
+
+#head {
+  text-align: center;
+  font-weight: bold;
+  font-size: 25px;
+  color: #9f2c2c; 
+  margin-bottom: 20px;
+}
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.skill {
+  font-size: 50px;
+  align-self: center;
+  margin-bottom: 10px;
+}
+
+.skill.fab.fa-html5 {
+  color: red;
+}
+
+.skill.fab.fa-css3-alt {
+  color: blue;
+}
+
+.skill.fab.fa-js {
+  color: yellow;
+}
+
+.skill.fab.fa-c,
+.skill.fab.fa-cuttlefish,
+.skill.fab.fa-java,
+.skill.fab.fa-bootstrap {
+  color: red;
+}
+
+.skills .d-flex {
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 10px;
+}

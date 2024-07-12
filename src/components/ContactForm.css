@@ -1,0 +1,53 @@
+.contact-container{
+  width:100vw,
+}
+
+
+.contact-form {
+  background-color:white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 100px orange;
+  max-width: 300px; 
+  margin: auto; 
+}
+
+.contact-form h2 {
+  margin-bottom: 20px;
+}
+
+.input-group {
+  margin-bottom: 15px;
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.input-group input,
+.input-group textarea {
+  width: 100%;
+  padding: 8px;
+  font-size: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.input-group textarea {
+  resize: vertical;
+}
+
+.input-group button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.input-group button:hover {
+  background-color: #0056b3;
+}
